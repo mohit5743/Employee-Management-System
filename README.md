@@ -1,10 +1,10 @@
- Employee Management System | Spring Boot
+# Employee Management System | Spring Boot
 
 A backend REST API built using Spring Boot to manage employee data with clean architecture and production-level practices.
 
 ---
 
- 🚀 Features
+## 🚀 Features
 
 - Full CRUD APIs (GET, POST, PUT, DELETE)
 - Layered Architecture (Controller → Service → Repository)
@@ -16,7 +16,7 @@ A backend REST API built using Spring Boot to manage employee data with clean ar
 
 ---
 
- 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - Java
 - Spring Boot
@@ -26,7 +26,7 @@ A backend REST API built using Spring Boot to manage employee data with clean ar
 
 ---
 
- 📌 API Endpoints
+## 📌 API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -38,29 +38,29 @@ A backend REST API built using Spring Boot to manage employee data with clean ar
 
 ---
 
- ⚙️ How to Run
+## ⚙️ How to Run
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/mohit5743/Employee-Management-System.git
-
 ---
- 2. Create database in MySQL:
 
+2.Create database in MySQL:
 CREATE DATABASE Employee;
 ---
- 3.Configure MySQL in src/main/resources/application.properties:
+
+3.Configure MySQL in src/main/resources/application.properties:
 spring.datasource.username=YOUR_DB_USERNAME
 spring.datasource.password=YOUR_DB_PASSWORD
 ---
 
- 4. Run the application:
+4.Run the application:
 ./mvnw spring-boot:run
 ---
 
-5. API is live at:
+5.API is live at:
 http://localhost:8080/api/v1/employee
----
 
 📥 Sample POST Request
 {
@@ -73,6 +73,7 @@ http://localhost:8080/api/v1/employee
   "joindate": "2024-01-15",
   "dob": "1998-05-20"
 }
+
 📂 Project Structure
 src/main/java/com/example/demo/Employee/
 ├── Config/
@@ -96,6 +97,7 @@ Implemented DTO pattern to decouple API from database entities
 Added global exception handling for consistent API responses
 Integrated pagination and sorting for efficient data retrieval
 Focused on writing clean, readable, and production-style code
+
 📈 Future Improvements
 Add authentication using Spring Security & JWT
 Deploy application (Render / Railway / AWS)
