@@ -41,21 +41,31 @@ A backend REST API built using Spring Boot to manage employee data with clean ar
 ## ⚙️ How to Run
 
 1. Clone the repository:
-   ```bash
+```bash
 git clone https://github.com/mohit5743/Employee-Management-System.git
-
+```
 ---
 2. Create database in MySQL:
+```bash
 CREATE DATABASE Employee;
+```
 ---
 3. Configure MySQL in src/main/resources/application.properties:
+```bash
 spring.datasource.username=YOUR_DB_USERNAME
 spring.datasource.password=YOUR_DB_PASSWORD
+```
 ---
 4. Run the application:
+```bash
 ./mvnw spring-boot:run
+```
+---
+
 5. API is live at:
+```bash
 http://localhost:8080/api/v1/employee
+```
 ---
 
 ## 📥 Sample POST Request
@@ -115,5 +125,3 @@ Java Backend Developer | Open to Work
 🔗 LinkedIn: https://www.linkedin.com/in/mohit-chopra
 
 🔗 GitHub: https://github.com/mohit5743
-```bash
-git clone https://github.com/mohit5743/Employee-Management-System.git
