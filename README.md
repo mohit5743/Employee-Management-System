@@ -103,18 +103,18 @@ src/main/java/com/example/demo/employee/
 ---
 
 ## 🧠 Project Highlights
-. Designed clean layered architecture for maintainability and scalability
-. Implemented DTO pattern to decouple API from database entities
-. Added global exception handling for consistent API responses
-. Integrated pagination and sorting for efficient data retrieval
-. Focused on writing clean, readable, and production-style code
+- Designed clean layered architecture for maintainability and scalability
+- Implemented DTO pattern to decouple API from database entities
+- Added global exception handling for consistent API responses
+- Integrated pagination and sorting for efficient data retrieval
+- Focused on writing clean, readable, and production-style code
 ---
 
 ## 📈 Future Improvements
-. Add authentication using Spring Security & JWT
-. Deploy application (Render / Railway / AWS)
-. Add unit and integration testing (JUnit, Mockito)
-. Integrate Swagger for API documentation
+- Add authentication using Spring Security & JWT
+- Deploy application (Render / Railway / AWS)
+- Add unit and integration testing (JUnit, Mockito)
+- Integrate Swagger for API documentation
 
 ---
 
