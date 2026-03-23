@@ -83,21 +83,23 @@ http://localhost:8080/api/v1/employee
 ```
 ---
 ## 📂 Project Structure
-src/main/java/com/example/demo/Employee/
-├── Config/
-│   └── EmployeeConfig.java
-├── Controller/
-│   └── EmployeeController.java
-├── Dto/
-│   └── EmployeeDto.java
-├── Exception/
-│   └── GlobalExceptionHandler.java
-├── Model/
-│   └── Employee.java
-├── Repository/
-│   └── EmployeeRepository.java
-└── Service/
-    └── EmployeeService.java
+```bash
+src/main/java/com/example/demo/employee/
+├── config/
+│ └── EmployeeConfig.java
+├── controller/
+│ └── EmployeeController.java
+├── dto/
+│ └── EmployeeDto.java
+├── exception/
+│ └── GlobalExceptionHandler.java
+├── model/
+│ └── Employee.java
+├── repository/
+│ └── EmployeeRepository.java
+└── service/
+└── EmployeeService.java
+```
 ---
 
 ## 🧠 Project Highlights
