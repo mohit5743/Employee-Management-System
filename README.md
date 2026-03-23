@@ -129,5 +129,5 @@ If you found this project useful, consider giving it a ⭐ on GitHub!
 **Mohit Chopra**  
 Java Backend Developer | Open to Work  
 
-🔗 LinkedIn: https://www.linkedin.com/in/mohit-chopra  
+🔗 LinkedIn: https://www.linkedin.com/in/mohitchopra5743/ 
 🔗 GitHub: https://github.com/mohit5743
