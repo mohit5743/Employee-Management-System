@@ -119,14 +119,15 @@ src/main/java/com/example/demo/employee/
 ---
 
 ## ⭐ Support
+
 If you found this project useful, consider giving it a ⭐ on GitHub!
+
 ---
 
 ## 📬 Contact
 
-Mohit Chopra
-Java Backend Developer | Open to Work
+**Mohit Chopra**  
+Java Backend Developer | Open to Work  
 
-🔗 LinkedIn: https://www.linkedin.com/in/mohit-chopra
-
+🔗 LinkedIn: https://www.linkedin.com/in/mohit-chopra  
 🔗 GitHub: https://github.com/mohit5743
