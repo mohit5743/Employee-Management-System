@@ -69,6 +69,7 @@ http://localhost:8080/api/v1/employee
 ---
 
 ## 📥 Sample POST Request
+```json
 {
   "firstName": "Rahul",
   "secondName": "Sharma",
@@ -79,6 +80,7 @@ http://localhost:8080/api/v1/employee
   "joindate": "2024-01-15",
   "dob": "1998-05-20"
 }
+```
 ---
 ## 📂 Project Structure
 src/main/java/com/example/demo/Employee/
@@ -97,19 +99,20 @@ src/main/java/com/example/demo/Employee/
 └── Service/
     └── EmployeeService.java
 ---
+
 ## 🧠 Project Highlights
-Designed clean layered architecture for maintainability and scalability
-Implemented DTO pattern to decouple API from database entities
-Added global exception handling for consistent API responses
-Integrated pagination and sorting for efficient data retrieval
-Focused on writing clean, readable, and production-style code
+. Designed clean layered architecture for maintainability and scalability
+. Implemented DTO pattern to decouple API from database entities
+. Added global exception handling for consistent API responses
+. Integrated pagination and sorting for efficient data retrieval
+. Focused on writing clean, readable, and production-style code
 ---
 
 ## 📈 Future Improvements
-Add authentication using Spring Security & JWT
-Deploy application (Render / Railway / AWS)
-Add unit and integration testing (JUnit, Mockito)
-Integrate Swagger for API documentation
+. Add authentication using Spring Security & JWT
+. Deploy application (Render / Railway / AWS)
+. Add unit and integration testing (JUnit, Mockito)
+. Integrate Swagger for API documentation
 
 ---
 
